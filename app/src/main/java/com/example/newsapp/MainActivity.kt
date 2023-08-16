@@ -12,6 +12,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
+
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
@@ -29,7 +30,6 @@ class MainActivity : AppCompatActivity() {
                 navController = nav_host_fragment.findNavController()
             )
         }
-
     }
 
     override fun onDestroy() {
